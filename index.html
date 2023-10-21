@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3154b14419.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="nempel">
+      <img src="img/logo.png" class="logo" />
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skillsbar">Skills</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="header">
+      <div class="container">
+        <div class="header-text">
+          <p>Welcome!</p>
+          <h1>Hi! I'm <span>Yefta Miranda</span></h1>
+          <h4><span class="multiple-text"></span></h4>
+        </div>
+        <div class="social-icons">
+          <br />
+          <a href="https://www.facebook.com/ruthputri.leony?mibextid=ZbWKwL"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://instagram.com/yeftaamirr?igshid=MzRlODBiNWFlZA=="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/yefta-miranda-threemarchie-siahaan-811630231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/yeftaamir"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!--------------about me----------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"><img src="img/about2.jpg" /></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hai! Saya Yefta Miranda Threemarchie Siahaan, merupakan seorang
+              mahasiswi tingkat tiga yang mengambil program studi S1 Informatika
+              di Institut Teknologi Del. Saya berumur 20 tahun, dan saya seorang
+              mahasiswa dengan minat UI/UX Design. Saya sangat suka dengan hal
+              dalam bidang kesenian. Saya memiliki hobi bermain musik, tarian
+              tradisional atau tari modern, dan edit foto atau edit cerita di
+              instagram.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">
+                Educational Background
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Building simple website
+                </li>
+                <li>
+                  <span>Figma</span><br />Designing the interface of application
+                  or website
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2009 - 2015</span><br />SD St. Ignatius</li>
+                <li><span>2015 - 2019</span><br />SMP Negeri 1 Medan</li>
+                <li><span>2019 - 2021</span><br />SMA Negeri 17 Medan</li>
+                <li>
+                  <span> 2021 - Current</span><br />Institut Teknologi Del
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Sekolah Dasar</span><br />Anggota Paduan Suara</li>
+                <li>
+                  <span>Sekolah Menengah Pertama</span><br />Anggota Paduan
+                  Suara
+                </li>
+                <li><span>Sekolah Menengah Atas</span><br />OSIS</li>
+                <li><span>Perguruan Tinggi</span><br />BEM</li>
+                <li>
+                  <span>Kompetisi</span><br />Gemastik XVI Div. Pengalaman
+                  Desain Pengguna (UX Design)
+                </li>
+                <li>
+                  <span>Komunitas</span><br />Lead of Event Orginizer at Google
+                  Developer Student Clubs
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------Skills-------------->
+    <div id="skillsbar">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="container2">
+          <div class="skills-column">
+            <h2><span>Hard Skills</span></h2>
+            <div class="skill">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%">75%</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 70%">70%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 50%">50%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Figma</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 85%">85%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-column">
+            <h2><span>Soft Skills</span></h2>
+            <div class="skill">
+              <div class="skill-name">Team Work</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%">85%</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Creativity</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 78%">78%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Event Organizer</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 80%">80%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Communication</div>
+                <div class="skill-bar">
+                  <div class="skill-level" style="width: 80%">80%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------Services------------>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>Figma</h2>
+            <p>
+              Figma adalah salah satu tools atau aplikasi desain yang dapat
+              digunakan pada windows dan Mac OS untuk membuat prototype aplikasi
+              serta berbagai desain lainnya. Aplikasi ini berbasis vektor,
+              sehingga memang sangat cocok digunakan untuk membuat user
+              interface aplikasi atau website. Berikut adalah beberapa skill...
+            </p>
+            <a href="https://youtu.be/PJIKqnftfPw?si=fV4wRY28WXxs9skD"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-pen"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              UI (User Interface) merupakan aspek visual yang tampak pada sebuah
+              website ataupun aplikasi mobile lainnya seperti tombol, warna,
+              tulisan dan tipografi. UX (User Experience) designer merupakan
+              seseorang yang bertanggung jawab menjamin kepuasan pengguna (user)
+              serta pengalaman yang semakin lebih bagus. Berikut adalah beberapa
+              skill...
+            </p>
+            <a
+              href="https://www.youtube.com/watch?v=UTrXsVBrohg&pp=ygUeYmVsYWphciBtZW5qYWRpIHVpIHV4IGRlc2lnbmVy"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-table-columns"></i>
+            <h2>Event Organizer</h2>
+            <p>
+              Event organizer terdiri dari bebagai macam jenis EO itu sendiri.
+              Tentu saja hal ini berhubungan dengan event atau acara apa yang
+              akan diselenggarkan oleh klien tentunya. Ada EO yang bergerak pada
+              bidang pementasan/pergelaran progam acara, non profit,
+              lomba/festival hingga pentas eksebisi/apresiasi. Berikut adalah
+              beberapa...
+            </p>
+            <a
+              href="https://bamai.uma.ac.id/2021/10/15/tips-belajar-menjadi-event-organizer-eo-bagi-pemula/"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------portfolio----------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/img/gambar1.jpg" />
+            <div class="layer">
+              <h3>Redesign Online Library System</h3>
+              <p>
+                Pada project yang saya lakukan kali ini adalah melakukan desain
+                kembali pada website Online Library System Institut Teknologi
+                Del. Project ini dikerjakan untuk memenuhi penilaian matakuliah
+                Interaksi Manusia Komputer.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.figma.com/file/c8iRsxgDEFJ6YEYOKjTNBc/IF-11S2203_UTS_IMK_11S21023_Yefta-Miranda?type=design&node-id=0%3A1&mode=design&t=24NGXiF8qMQaz8Ko-1"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar3.jpg" />
+            <div class="layer">
+              <h3>Redesign IT Del Website</h3>
+              <p>
+                Pada project yang saya kerjakan kali ini adalah melakukan desain
+                kembali pada website kampus Institut Teknologi Del. Project ini
+                dikerjakan untuk memenuhi penilaian matakuliah Interaksi Manusia
+                Komputer.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.figma.com/file/KEOtK5MUDBSj75wp8N3AJr/IMK_S1IF_11S21023_YeftaMiranda?type=design&node-id=0%3A1&mode=design&t=M2AfHCyZ6jKf19uv-1"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar_2.jpg" />
+            <div class="layer">
+              <h3>Kompetisi Gemastik XIV</h3>
+              <p>
+                Kompetisi Gemastik XVI telah diadakan kembali dengan Tema TIK
+                untuk Pembangunan Indonesia Maju dan Berkelanjutan. Saya dan tim
+                saya mengikuti kompetisi ini dengan divisi Desain Pengalaman
+                Pengguna.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.figma.com/proto/Yf4SwYLiU9Lu74mP1HZGsm/Proyek-Gemastik?page-id=0%3A1&type=design&node-id=44-5&viewport=-629%2C681%2C1&t=haL4igWIxtr0wGZZ-1&scaling=scale-down&starting-point-node-id=63%3A5&mode=design"
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar4.jpg" />
+            <div class="layer">
+              <h3>Project PBO</h3>
+              <p>
+                Project ini membuat sebuah aplikasi sederhana Laporan Kerusakan
+                yang dapat digunakan oleh setiap mahasiswa di Institut Teknologi
+                Del.
+              </p>
+              <div class="sampingan">
+                <div class="tempat-tombolkita">
+                  <a class="tombolkita" href="https://youtu.be/CpCAUKdYlyA"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </div>
+
+                <div class="tempat-tombolkita">
+                  <a
+                    class="tombolkita"
+                    href="https://github.com/yeftaamir/project_pbo_kel14/tree/e647ff7080fa768742519a9bc31cd51e87797993"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar5.jpg" />
+            <div class="layer">
+              <h3>Short Class UI/UX Design</h3>
+              <p>
+                Untuk mengasah kemampuan dalam minat UI/UX Design, saya
+                mengikuti Short Class yang diadakan oleh platform E-Learning
+                MySkill dengan topik Intro to UI/UX Design.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.instagram.com/p/CsJQ9LtL6sk/?igshid=MzRlODBiNWFlZA=="
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/gambar6.jpg" />
+            <div class="layer">
+              <h3>Short Class UX Research</h3>
+              <p>
+                Untuk mengasah kemampuan dalam minat UI/UX Design, saya
+                mengikuti Short Class yang diadakan oleh platform E-Learning
+                MySkill dengan topik Introduction to UX Research.
+              </p>
+              <div class="tempat-tombolkita">
+                <a
+                  class="tombolkita"
+                  href="https://www.instagram.com/p/Ctg9k4krVOb/?igshid=MzRlODBiNWFlZA=="
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+      </div>
+    </div>
+    <!--------------Contact--------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Perum. Graha Deli Permai
+              B1/37, Medan
+            </p>
+            <p><i class="fa-solid fa-envelope"></i>mirandayeftaa3@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+62 813-2588-2455</p>
+            <div class="social-icons">
+              <h3>Follow Me</h3>
+              <br />
+              <a href="https://www.facebook.com/ruthputri.leony?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://instagram.com/yeftaamirr?igshid=MzRlODBiNWFlZA=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/yefta-miranda-threemarchie-siahaan-811630231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/yeftaamir"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="/img/CV - Yefta Miranda.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <!-- <form name="submit-to-google-sheet"> -->
+            <form>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Name"
+                required
+                maxlength="50"
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <!-- 
+            <span id="msg"></span> -->
+          </div>
+        </div>
+      </div>
+
+      <!----Copyright-------->
+      <div class="copyright">
+        <p>
+          Copyright &copy; <time datetime="2024">2024</time
+          ><span> Yefta Miranda</span>. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script> -->
+
+    <!-- <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script> -->
+
+    <!-- <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbxqe_4vmaGsX3TN3nHAjWdU6wthLE9VmruElO-5YG1of2d2nAHikHhXpZVEfkcKWDXlpQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              mdg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script> -->
+    <a href="#" class="top"><i class="fa-solid fa-caret-up"></i></a>
+    <script
+      id="ratufa_loader"
+      src="https://www.ratufa.io/c/ld.js?f=ysul34j1&n=n1.ratufa.io"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
