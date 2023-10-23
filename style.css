@@ -17,7 +17,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: url(/img/bg3.jpg);
+  background-image: url(img/bg3.jpg);
   background-size: cover;
   background-position: center;
   position: sticky;
@@ -192,7 +192,7 @@ nav ul li a:hover::after {
 
 h2 span {
   color: #fff;
-  text-shadow: 0 0 10px #e41414;
+  text-shadow: 0 0 5px #e41414; /* Efek text shadow yang lebih halus */
 }
 
 .skill {
@@ -203,12 +203,7 @@ h2 span {
 .skill-name {
   font-weight: bold;
   margin-bottom: 5px;
-}
-
-.skill-bar {
-  background-color: #ababab;
-  height: 20px;
-  border-radius: 10px;
+  color: #ffffff; /* Warna teks yang lebih mudah terbaca */
 }
 
 .skill-level {
@@ -218,7 +213,21 @@ h2 span {
   text-align: right;
   padding: 5px;
   color: #fff;
-  transition: 5s;
+  transition: width 1s ease-in-out;
+}
+
+.skill-bar {
+  background-color: #ababab;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.skill-bar:hover {
+  background-color: #666666;
+}
+
+.skill-bar:hover .skill-level {
+  background-color: #ff004f;
 }
 
 /*--------------------- services --------------*/
@@ -438,22 +447,22 @@ form btn2 {
 }
 
 /* --------------- css for small screen -------------*/
-nav .fas {
+nav .fa-solid {
   display: none;
 }
 
 @media only screen and (max-with: 600px) {
-  #header {
+  #headers {
     background-image: url(img/bg2.png);
   }
-  .header-text {
+  .headers-text {
     margin-top: 100%;
     font-size: 16px;
   }
-  .header-text h1 {
+  .headers-text h1 {
     font-size: 30px;
   }
-  nav .fas {
+  nav .fa-solid {
     display: block;
     font-size: 25px;
   }
@@ -472,7 +481,7 @@ nav .fas {
     display: block;
     margin: 25px;
   }
-  nav ul .fas {
+  nav ul .fas-solid {
     position: absolute;
     top: 25px;
     left: 25px;
